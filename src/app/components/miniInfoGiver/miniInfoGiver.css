@@ -1,0 +1,100 @@
+.infoGiverWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heroInfoWrapper,
+.askBar {
+  width: 550px;
+  height: 250px;
+  padding: 35px 40px;
+  display: flex;
+  align-items: center;
+  font-family: var(--robotoFont);
+  gap: 30px;
+  background: var(--white-color);
+}
+.heroInfoWrapper {
+  box-shadow: 5px 5px 20px 0px #00000040;
+}
+.askBar {
+  flex-direction: column;
+  background: var(--dark-grey-color);
+  gap: 40px;
+  position: relative;
+  align-items: flex-start;
+}
+
+.heroInfo {
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+}
+.heroInfoWrapper .name {
+  font-weight: 700;
+  font-size: 22px;
+}
+.heroInfoWrapper .descr span {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.navBtns {
+  display: flex;
+  align-items: right;
+  gap: 20px;
+}
+.btnSample {
+  width: 101px;
+  height: 30px;
+  border-width: 1px;
+  cursor: pointer;
+  clip-path: polygon(
+    10px 0%,
+    100% 0,
+    100% calc(100% - 10px),
+    calc(100% - 10px) 100%,
+    0 100%,
+    0 10px
+  );
+  transition: 0.3s;
+  border: none;
+  font-family: var(--robotoFont);
+  font-weight: 400;
+  font-size: 14px;
+}
+.homePage {
+  background: var(--red-color);
+  color: var(--white-color);
+}
+.wiki {
+  background: var(--grey-color);
+  color: var(--white-color);
+}
+.selectAnother {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heroItemsImg .heroItem {
+  position: absolute;
+  top: 40px;
+  left: 400px;
+}
+.usePart{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 27px;
+}
+.title, .textAnother{
+    font-family: var(--robotoFont);
+    font-weight: 700;
+    font-size: 13px;
+    color: var(--white-color);
+}
+.textAnother{
+    font-size: 23px;
+}

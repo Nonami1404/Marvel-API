@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --robotoFont: 'Roboto Condensed', sans-serif;
+    --black-color: #000000;
+    --grey-color: #5C5C5C;
+    --white-color: #FFFFFF;
+    --red-color:#9F0013;
+    --dark-grey-color:#232222;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
