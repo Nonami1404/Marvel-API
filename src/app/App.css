@@ -16,3 +16,20 @@
     text-decoration: none;
     list-style: none;
 }
+
+.heros{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px 0px;
+}
+
+.homePage {
+  background: var(--red-color);
+  color: var(--white-color);
+}
+.wiki {
+  background: var(--grey-color);
+  color: var(--white-color);
+}

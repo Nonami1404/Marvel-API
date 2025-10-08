@@ -1,0 +1,95 @@
+.personalInfo {
+  width: 825px;
+  height: 763px;
+  box-shadow: 0px 0px 20px 0px #00000040;
+  padding: 25px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.hero-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  flex-direction: row;
+  gap: 25px;
+}
+.infoItSelf {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 150px;
+}
+.navBtnsNew {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.navBtnsNew button {
+  width: 101px;
+  height: 30px;
+  border-width: 1px;
+  cursor: pointer;
+  clip-path: polygon(
+    10px 0%,
+    100% 0,
+    100% calc(100% - 10px),
+    calc(100% - 10px) 100%,
+    0 100%,
+    0 10px
+  );
+  transition: 0.3s;
+  border: none;
+  font-family: var(--robotoFont);
+  font-weight: 400;
+  font-size: 14px;
+}
+.nameOfHero {
+  font-family: var(--robotoFont);
+  font-weight: 700;
+  font-size: 22px;
+}
+.descr h1 {
+  font-family: var(--robotoFont);
+  font-weight: 400;
+  font-size: 14px;
+}
+.commicsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.commicsText {
+  font-family: var(--robotoFont);
+  font-weight: 700;
+  font-size: 20px;
+}
+.commicsNames{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.miniCards{
+    width: 445px;
+    height: 25px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    padding-left: 10px;
+}
+.commicTitle{
+    font-family: var(--robotoFont);
+    font-weight: 400;
+    font-size: 14px;
+}
+.vision {
+  position: absolute;
+  top: 800px;
+  left: 100px;
+}
